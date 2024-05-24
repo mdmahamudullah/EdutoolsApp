@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#006794"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Calculator"
+        android:background="@drawable/button"
+        android:textColor="#2E4649"
+        android:textSize="20sp"
+        android:onClick="Calculator"/>
+<Button
+    android:layout_marginTop="5dp"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+        android:text="CGPA Calculator"
+    android:background="@drawable/button"
+    android:textColor="#2E4649"
+        android:textSize="20sp"
+        android:onClick="CGPACalculator"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Converter"
+        android:background="@drawable/button"
+        android:textColor="#2E4649"
+        android:textSize="20sp"
+        android:onClick="converter"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Quiz game"
+        android:background="@drawable/button"
+        android:textColor="#2E4649"
+        android:textSize="20sp"
+        android:onClick="QuizGame"/>
+
+
+</LinearLayout>

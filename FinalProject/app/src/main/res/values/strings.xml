@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EduTools</string>
+    <string-array name="temperature_array">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+    </string-array>
+    <string-array name="length_array">
+        <item>Kilometer</item>
+        <item>Meter</item>
+        <item>Centimeter</item>
+        <item>Feet</item>
+    </string-array>
+    <string-array name="converter_array">
+        <item>Select Converter</item>
+        <item>Temperature</item>
+        <item>Length</item>
+    </string-array>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:background="#792C9A44"
+    tools:context=".ResultShowPage">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total mark : 5"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/FinalResultShowID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your mark show here"
+        android:layout_marginTop="5sp"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/tryagainID"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:onClick="tryAgainButton"
+        android:background="@color/offWhite"
+        android:text="Goto Home"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+</LinearLayout>

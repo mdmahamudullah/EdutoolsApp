@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#792C9A44"
+    android:orientation="vertical"
+    tools:context=".QuizPage2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Question 2:"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="406dp"
+        android:layout_marginTop="90dp"
+        android:background="#792C9A44"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="40sp"
+            android:text="5*(5-5)*5=?"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/q2radiogroupID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp">
+
+            <RadioButton
+                android:id="@+id/q2radiobtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:id="@+id/q2radiobtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:id="@+id/q2radiobtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="25sp" />
+
+            <RadioButton
+                android:id="@+id/q2radiobtn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="25sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="180sp"
+            android:layout_marginLeft="20dp"
+            android:text="back"
+            android:textAllCaps="false"
+            android:background="@color/offWhite"
+            android:onClick="gobackquestion1"
+            android:textSize="28sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@color/offWhite"
+            android:onClick="GoQuestonpage3"
+            android:text="next"
+            android:textAllCaps="false"
+            android:textSize="28sp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

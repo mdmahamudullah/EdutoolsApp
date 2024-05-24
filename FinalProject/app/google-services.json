@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "633508787713",
+    "project_id": "edutools-459f7",
+    "storage_bucket": "edutools-459f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633508787713:android:6c7e5211983ed76f43f200",
+        "android_client_info": {
+          "package_name": "com.example.edutools"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633508787713-2tq95bfadevdgo96ua720tm1c0letbdf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.edutools",
+            "certificate_hash": "a69a17ddce538f2d6f3148d4c0e39931b5dc248d"
+          }
+        },
+        {
+          "client_id": "633508787713-471jh7ce527ottf7e6m1erb4cab7e01v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDRvgy9FA-ZALC6iVBMrEZhaQ26kCuvc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633508787713-471jh7ce527ottf7e6m1erb4cab7e01v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
